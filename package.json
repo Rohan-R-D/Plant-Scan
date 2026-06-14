@@ -1,0 +1,22 @@
+{
+  "name": "plant-analysis-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "list-models": "node tools/list_models.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^2.8.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "pdfkit": "^0.15.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
